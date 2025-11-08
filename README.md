@@ -1,5 +1,5 @@
-# research
-Public repo for my research ideas & tools
+# Research ideas built by AI
+Public repo for my research ideas & tools built by AI
 
 ## Projects
 
