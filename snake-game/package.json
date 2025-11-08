@@ -1,0 +1,23 @@
+{
+  "name": "snake-game",
+  "version": "1.0.0",
+  "description": "A classic Snake game built with vanilla HTML, CSS, and JavaScript",
+  "scripts": {
+    "start": "http-server -p 8000 -o",
+    "dev": "live-server --port=8000 --open=index.html",
+    "serve": "http-server -p 8000"
+  },
+  "keywords": [
+    "snake",
+    "game",
+    "html5",
+    "canvas",
+    "vanilla-js"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  }
+}
