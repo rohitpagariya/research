@@ -1,5 +1,5 @@
 # research
-Public repo for my researching ideas & tools
+Public repo for my research ideas & tools
 
 ## Projects
 
