@@ -20,7 +20,7 @@ let dx = 0;
 let dy = 0;
 let score = 0;
 let highScore = localStorage.getItem('snakeHighScore') || 0;
-let gameSpeed = SPEEDS.medium;
+let gameSpeed = SPEEDS.slow;
 let gameLoop = null;
 let isPaused = false;
 let isGameOver = false;
@@ -261,13 +261,17 @@ function togglePause() {
 }
 
 // Change game speed
-function changeSpeed(speed) {
+function changeSpeed(speed, button) {
     gameSpeed = SPEEDS[speed];
 
     // Update active button
     document.querySelectorAll('.speed-btn').forEach(btn => {
         btn.classList.remove('active');
     });
+
+    if (button) {
+        button.classList.add('active');
+    }
 
     // Restart game loop with new speed
     if (gameLoop && !isGameOver) {
@@ -321,18 +325,15 @@ newGameBtn.addEventListener('click', initGame);
 pauseGameBtn.addEventListener('click', togglePause);
 
 slowSpeedBtn.addEventListener('click', () => {
-    slowSpeedBtn.classList.add('active');
-    changeSpeed('slow');
+    changeSpeed('slow', slowSpeedBtn);
 });
 
 mediumSpeedBtn.addEventListener('click', () => {
-    mediumSpeedBtn.classList.add('active');
-    changeSpeed('medium');
+    changeSpeed('medium', mediumSpeedBtn);
 });
 
 fastSpeedBtn.addEventListener('click', () => {
-    fastSpeedBtn.classList.add('active');
-    changeSpeed('fast');
+    changeSpeed('fast', fastSpeedBtn);
 });
 
 // Initialize high score display

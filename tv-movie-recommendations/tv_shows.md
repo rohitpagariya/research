@@ -2,6 +2,8 @@
 
 A curated list of top TV show recommendations from the last 3 years across various genres, featuring IMDB ratings, Rotten Tomatoes scores, and critical reviews.
 
+*Recommendations generated on November 8th, 2025*
+
 ---
 
 ## Table of Contents

@@ -31,7 +31,6 @@ A classic Snake game built with vanilla HTML, CSS, and JavaScript. No frameworks
    This will automatically open the game in your browser at `http://localhost:8000`
 
 **Alternative npm scripts:**
-- `npm run dev` - Runs live-server with auto-reload on file changes
 - `npm run serve` - Starts server without auto-opening browser
 
 ### Option 2: Using Python (No install needed)
@@ -64,8 +63,8 @@ Simply double-click `index.html` or open it directly in your browser.
 - **New Game**: Click to restart the game
 - **Pause**: Click or press Spacebar to pause/resume
 - **Speed Buttons**: Change difficulty on the fly
-  - Slow - Relaxed pace for beginners
-  - Medium - Default balanced speed
+  - Slow - Default relaxed pace (perfect for beginners)
+  - Medium - Balanced speed
   - Fast - Challenge for experienced players
 
 ## Scoring
