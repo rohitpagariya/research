@@ -15,17 +15,49 @@ A classic Snake game built with vanilla HTML, CSS, and JavaScript. No frameworks
 - **Responsive Design**: Works on desktop and mobile devices
 - **Smooth Animations**: Visual effects and polished UI
 
+## Running Locally
+
+### Option 1: Using npm (Recommended)
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+2. Start the server:
+   ```bash
+   npm start
+   ```
+   This will automatically open the game in your browser at `http://localhost:8000`
+
+**Alternative npm scripts:**
+- `npm run dev` - Runs live-server with auto-reload on file changes
+- `npm run serve` - Starts server without auto-opening browser
+
+### Option 2: Using Python (No install needed)
+
+If you have Python installed:
+```bash
+python3 -m http.server 8000
+```
+Then open `http://localhost:8000` in your browser
+
+### Option 3: Direct File Open
+
+Simply double-click `index.html` or open it directly in your browser.
+
+**Note:** Some browsers may have CORS restrictions with local files. Using a local server (Options 1 or 2) is recommended for the best experience.
+
 ## How to Play
 
-1. Open `index.html` in your web browser
-2. Use the **Arrow Keys** to control the snake:
+1. Use the **Arrow Keys** to control the snake:
    - ⬆️ Up Arrow - Move up
    - ⬇️ Down Arrow - Move down
    - ⬅️ Left Arrow - Move left
    - ➡️ Right Arrow - Move right
-3. Eat the red food to grow and score points
-4. Avoid hitting the walls or yourself
-5. Press **Spacebar** to pause/resume
+2. Eat the red food to grow and score points
+3. Avoid hitting the walls or yourself
+4. Press **Spacebar** to pause/resume
 
 ## Controls
 
