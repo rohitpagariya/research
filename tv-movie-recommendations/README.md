@@ -57,4 +57,4 @@ Recommendations are based on a balanced mix of:
 
 ---
 
-*Last Updated: November 2025*
+*Last Updated: November 8th, 2025*
